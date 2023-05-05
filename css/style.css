@@ -1,0 +1,21 @@
+
+body{
+  background-color: white;
+}
+
+/*header*/
+.logo {
+   width: 150px;
+  }
+
+  .logo-figure {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-caption {
+    margin-left: 10px;
+  }
+
+ 
+  
