@@ -4,6 +4,13 @@ body {
 }
 
 /*header*/
+.btn-primary {
+  background-color: rgb(207, 232, 156);
+  width:120px;
+  border: 1px rgb(118,35,47);
+  background-color:rgb(118,35,47); 
+}
+
 .logo {
    width: 150px;
   }
@@ -30,6 +37,11 @@ body {
   width: 30%;
 }
 
-.2 {
-  display: none;
+
+/*variety*/
+
+.img-thumbnail{
+  height: 300px;
+  width: 300px;
+  margin: 30px;
 }
