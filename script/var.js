@@ -19,5 +19,17 @@ function navigateToPage2 (){
 document.getElementById("button mx-4");
 button4.addEventListener("click, navigateToPage2");
 function navigateToPage2 (){
-  window.location.href="inicio.html";
+  window.location.href="index";
 }
+
+/*contact*/
+const button2 = document.getElementById("button2");
+const contactIcons = document.getElementById("contact-icons");
+
+button2.addEventListener("click", function() {
+  if (contactIcons.style.display === "none") {
+    contactIcons.style.display = "flex"; // o "block" si prefieres
+  } else {
+    contactIcons.style.display = "none";
+  }
+});

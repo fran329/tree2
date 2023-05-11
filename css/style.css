@@ -45,3 +45,26 @@ body {
   width: 300px;
   margin: 30px;
 }
+
+/*buttons*/
+
+#contact-icons {
+  position: absolute;
+  bottom: 170px;
+  right: 100px;
+  
+  
+}
+
+#contact-icons a {
+ color: rgb(207, 232, 156);
+ padding: 15px;
+  font-size: 40px;
+}
+
+#wspbtn{
+  color: rgb(207, 232, 156);
+ font-size: 20px;
+  margin-left: 50px;
+  
+}

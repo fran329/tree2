@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <title>Urrku</title>
 
@@ -59,17 +61,42 @@
             <button class="btn btn-primary mx-4" id="button1">Variedades</button>
           </a>
 
-          <a href="contacto.html">
-            <button class="btn btn-primary mx-4" id="button2">Contacto</button>
-            </a>
+          
+            
+          <button class="btn btn-primary mx-4" id="button2">Contacto</button>
+
+          <div id="contact-icons" style="display: none;">
+            <a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/123456789"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/example/"><i class="fab fa-instagram"></i></a>
+          </div>
+          
+          
+          <script>
+            const button2 = document.getElementById("button2");
+            const contactIcons = document.getElementById("contact-icons");
+          
+            button2.addEventListener("click", function() {
+              if (contactIcons.style.display === "none") {
+                contactIcons.style.display = "flex"; // o "block" si prefieres
+              } else {
+                contactIcons.style.display = "none";
+              }
+            });
+          </script>
+          
+
+            
 
             <a href="sobreurrku.html ">
             <button class="btn btn-primary mx-4" id="button3">Sobre Urkku</button>
             </a>
 
-            <a href="inicio.html ">
+            <a href="index.html">
             <button class="btn btn-primary mx-4" id="buton4">Inicio</button>
             </a>
+
+            <a href="https://wa.me/123456789"><i class="fab fa-whatsapp" id="wspbtn"> 131234324 </i> </a>
           
           </div>
         </div>

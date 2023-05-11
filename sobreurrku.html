@@ -1,1 +1,135 @@
-a
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <title>Urrku</title>
+
+</head>
+
+<body>
+
+<!--header/nav-->
+
+<header> 
+
+<nav style="background-color: rgb(207, 232, 156)" >
+
+  <div class="container">
+  <div class="row text-center">
+    <div class="col-sm-12 col-md-6 mx-auto  ">
+    </div>
+    
+
+      <p> ARBOLES AUTÓCTONOS ENMACETADOS </p>
+
+    </div>
+  </div>
+</div>
+
+</nav>
+
+    <!--buttons-->
+    <nav class="2">
+    <div class="container">
+      
+        <div class="row">
+          <div class="col-sm-3 ml-auto">
+           
+
+            <figure class="logo-figure mx-4">
+              <img class="logo" src="https://lh3.googleusercontent.com/gtVHTfUVmhQVMLLqniTYJi1eMgLxVQL2Ar7OLZOykNR9h0WGTzPRZTUExuKKEyOCevjSqbd3nqzz8PJi2WGopbq2PQ2nlz9Swiia1Cm7yjYT1JpIJLLjU3gkNlFeuJziaquhOvwzYw=w2400" class="img-fluid" alt="..." style=" margin-left: -70px;">
+              <figcaption class="logo-caption">Urrku landscapes</figcaption>  
+            </figure>
+          </div>
+          
+            <div  class="col-sm-9 mt-5  order-lg-2">
+
+        <a href= variedades.html> 
+            <button class="btn btn-primary mx-4" id="button1">Variedades</button>
+          </a>
+
+          
+            
+          <button class="btn btn-primary mx-4" id="button2">Contacto</button>
+
+          <div id="contact-icons" style="display: none;">
+            <a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/123456789"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/example/"><i class="fab fa-instagram"></i></a>
+          </div>
+          
+          
+          <script>
+            const button2 = document.getElementById("button2");
+            const contactIcons = document.getElementById("contact-icons");
+          
+            button2.addEventListener("click", function() {
+              if (contactIcons.style.display === "none") {
+                contactIcons.style.display = "flex"; // o "block" si prefieres
+              } else {
+                contactIcons.style.display = "none";
+              }
+            });
+          </script>
+          
+
+            
+
+            <a href="sobreurrku.html ">
+            <button class="btn btn-primary mx-4" id="button3">Sobre Urkku</button>
+            </a>
+
+            <a href="index.html">
+            <button class="btn btn-primary mx-4" id="buton4">Inicio</button>
+            </a>
+
+            <a href="https://wa.me/123456789"><i class="fab fa-whatsapp" id="wspbtn"> 131234324 </i> </a>
+          
+          </div>
+        </div>
+    </div>
+    </div>
+    </nav>
+
+   
+    <hader>
+        <style>
+            header {
+              text-align: center;
+            }
+        
+            h1, p {
+              display: inline-block;
+             line-height: 40px;
+             
+            }
+          </style>
+      
+        <h1> Quienes somos <style></style> </h1>
+        <p> Historia y plantaciones de hace años.
+            El motor de este proyecto es la pasión de mi papá (Juan) por los árboles nativos, desde soltero ha sembrado, germinado, plantado y cuidado en sus primeros estadíos árboles a lo largo de la ciudad de Villa Allende. Luego abrió un tiempo vivero el piquillin, proyecto que más tarde termino.
+             Sin embargo, siempre nos mantuvimos produciendo y vendiendole a viveros. Años después yo (Martin) fui informándome, investigando y aprendiendo también sobre cada árbol en particular y las funciones del monte, distintos ecosistemas de la provincia de Córdoba. Actualmente entre los tres (mi papá, mi hermano y yo) decidimos formar nuevamente un proyecto que está en crecimiento. 
+            Algunas funciones de los árboles nativos dentro de las ciudades: Brindar sombra refugio para pájaros, dónde pueden tener reparos en días de extremo calor, o en días de inclemencias climáticas - Sombra también útil para las personas, ya sea para sentarse debajo, estacionar autos debajo de la sombra, etc - Aportan materia orgánica al suelo y embellezen una plaza,vereda o su hogar.</p>
+        </div>
+    </hader>
+    <main id="cajaU1">
+        <img id= "foto" src="https://lh3.googleusercontent.com/0Q9J6ubQUjcObitVCYQzbqnse32WGTu7EklGql3xJLXeGjs5AbEezdXOSHSRaKiKP0AgepHyhqrLXzSf6RfBWMw8dmKkc7AFfbYCH9i3107Wz1mOBF-MtRz5SIjAoHp4JYO75n5YJg=w2400" alt="Foto">
+    </main>
+
+
+ <script src="./script/script2.js">  
+ </script>
+
+</body>
+</html>
