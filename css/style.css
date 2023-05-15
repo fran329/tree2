@@ -1,6 +1,8 @@
 
 body {
   background-color: white;
+  font-family: 'Darumadrop One', cursive;
+font-family: 'EB Garamond', serif;
 }
 
 /*header*/
@@ -9,7 +11,16 @@ body {
   width:120px;
   border: 1px rgb(118,35,47);
   background-color:rgb(118,35,47); 
+  
 }
+
+
+  #action{
+    background-color:rgb(118,35,47); 
+    color:white;
+    border: 1px rgb(118,35,47);
+  }
+  
 
 .logo {
    width: 150px;

@@ -33,3 +33,7 @@ button2.addEventListener("click", function() {
     contactIcons.style.display = "none";
   }
 });
+
+
+/*sticky*/
+
